@@ -25,8 +25,7 @@ export default function Navbar() {
           <button className="navbar__logo" onClick={() => go('/')}>
             <div className="navbar__logo-icon">🏥</div>
             <div className="navbar__logo-text">
-              <p>Shiva Medical</p>
-              <p>&amp; Surgicals</p>
+              <p>SHIVA MEDICAL &amp; SURGICALS</p>
             </div>
           </button>
 
