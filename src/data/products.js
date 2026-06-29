@@ -14,13 +14,15 @@ export const PRODUCTS = [
     name: 'Disposable Surgical Gloves',
     desc: 'Latex-free, sterile, powder-free examination gloves for single use in clinical environments.',
     specs: 'Sizes: XS–XL | Box of 100 | CE & ISO 11135 certified',
-    icon: '🧤',
+    image: "/images/products/Gloves.jpg",
+    
   },
   {
     id: 2, category: 'consumables',
     name: 'IV Infusion Set',
     desc: 'Standard infusion set with roller clamp, airvent needle, and luer lock connector.',
     specs: 'Length: 150 cm | Flow rate: 60 drops/min | Sterile, single use',
+    image: "/images/products/IV Infusion Set.jpg",
     icon: '💉',
   },
   {
@@ -28,6 +30,7 @@ export const PRODUCTS = [
     name: 'Surgical Face Mask (3-Ply)',
     desc: 'Non-woven 3-layer protective mask with adjustable nose clip and ear loops.',
     specs: 'BFE ≥ 95% | Pack of 50 | ASTM Level 2',
+    image: "/images/products/Surgical Face Mask (3-Ply).jpg",
     icon: '😷',
   },
   {
@@ -35,6 +38,7 @@ export const PRODUCTS = [
     name: 'Wound Dressing Bandage',
     desc: 'Sterile cotton crepe bandage for wound dressing, pressure support, and immobilisation.',
     specs: 'Widths: 5 cm, 10 cm, 15 cm | Box of 12 rolls',
+    image: "/images/products/Wound Dressing Bandage.jpg",
     icon: '🩹',
   },
   {
@@ -42,6 +46,7 @@ export const PRODUCTS = [
     name: 'Urinary Catheter (Foley)',
     desc: '2-way Foley catheter with balloon for urinary drainage in hospitalised patients.',
     specs: 'Sizes: Fr 12–Fr 24 | Balloon: 10 mL | Silicone-coated latex',
+    image: "/images/products/Urinary Catheter (Foley).jpg",
     icon: '🔵',
   },
   {
@@ -49,6 +54,7 @@ export const PRODUCTS = [
     name: 'Syringe with Needle (Disposable)',
     desc: 'Single-use hypodermic syringes with 3-part construction for safe injections.',
     specs: 'Sizes: 1 mL, 2 mL, 5 mL, 10 mL | Box of 100 | CE marked',
+    image: "/images/products/Syringe with Needle (Disposable).jpg",
     icon: '🩺',
   },
   {
@@ -56,6 +62,7 @@ export const PRODUCTS = [
     name: 'Stainless Steel Scissors Set',
     desc: 'Autoclavable surgical scissors — blunt/blunt, sharp/blunt, and iris variants.',
     specs: 'Grade 316L SS | Sizes: 14 cm, 18 cm | Set of 3',
+    image: "/images/products/Stainless Steel Scissors Set.jpg",
     icon: '✂️',
   },
   {
@@ -63,6 +70,7 @@ export const PRODUCTS = [
     name: 'Disposable Scalpel Blades',
     desc: 'Carbon steel sterile scalpel blades individually packed in peel-open foil pouches.',
     specs: 'Sizes: No. 10, 11, 12, 15, 20, 22 | Box of 100',
+    image: "/images/products/Disposable Scalpel Blades.jpg",
     icon: '🔪',
   },
   {
@@ -70,6 +78,7 @@ export const PRODUCTS = [
     name: 'Absorbable Suture Thread',
     desc: 'Polyglycolic acid braided absorbable suture with atraumatic needle attached.',
     specs: 'USP 2-0 to 4-0 | Absorbs in 60–90 days | Box of 12',
+    image: "/images/products/Absorbable Suture Thread.jpg",
     icon: '🧵',
   },
   {
@@ -77,6 +86,7 @@ export const PRODUCTS = [
     name: 'Surgical Retractor Set',
     desc: 'Stainless steel Balfour-type abdominal retractor with interchangeable blades.',
     specs: 'Grade 304 SS | Autoclavable | Set of 6 blades',
+    image: "/images/products/Surgical Retractor Set.jpg",
     icon: '⚙️',
   },
   {
@@ -84,6 +94,7 @@ export const PRODUCTS = [
     name: 'Haemostatic Forceps (Artery Clamp)',
     desc: 'Straight and curved mosquito haemostatic forceps for clamping blood vessels.',
     specs: 'Grade 316L SS | Lengths: 12 cm, 14 cm, 16 cm | Pair',
+    image: "/images/products/Haemostatic Forceps (Artery Clamp).jpg",
     icon: '🔧',
   },
   {
@@ -91,6 +102,7 @@ export const PRODUCTS = [
     name: 'Digital BP Monitor',
     desc: 'Upper-arm automatic blood pressure monitor with arrhythmia detection indicator.',
     specs: 'Range: 0–299 mmHg | Accuracy: ±3 mmHg | Memory: 60 readings',
+    image: "/images/products/Digital BP Monitor.jpg",
     icon: '💪',
   },
   {
@@ -98,6 +110,7 @@ export const PRODUCTS = [
     name: 'Fingertip Pulse Oximeter',
     desc: 'Compact SpO₂ and heart rate monitor with OLED dual-colour display.',
     specs: 'SpO₂: 70–100% | HR: 30–250 bpm | CE & FDA approved',
+    image: "/images/products/Fingertip Pulse Oximeter.jpg",
     icon: '🫀',
   },
   {
@@ -105,6 +118,7 @@ export const PRODUCTS = [
     name: 'Aneroid Sphygmomanometer',
     desc: 'Precision desk model aneroid sphygmomanometer with adult and paediatric cuffs.',
     specs: 'Dial: 58 mm | Range: 0–300 mmHg | Calibration certificate included',
+    image: "/images/products/Aneroid Sphygmomanometer.jpg",
     icon: '📟',
   },
   {
@@ -112,6 +126,7 @@ export const PRODUCTS = [
     name: 'Glucometer Kit',
     desc: 'Blood glucose monitoring system with lancing device and 25 test strips included.',
     specs: 'Range: 20–600 mg/dL | Sample: 0.5 µL | Memory: 500 readings',
+    image: "/images/products/Glucometer Kit.jpg",
     icon: '🩸',
   },
   {
@@ -119,6 +134,7 @@ export const PRODUCTS = [
     name: 'Clinical Thermometer (Digital)',
     desc: 'Fast-reading digital thermometer with fever alert and flexible probe tip.',
     specs: 'Range: 32–42.9°C | Accuracy: ±0.1°C | Reading time: 10 sec',
+    image: "/images/products/Clinical Thermometer (Digital).jpg",
     icon: '🌡️',
   },
   {
@@ -126,6 +142,7 @@ export const PRODUCTS = [
     name: 'Hospital Examination Table',
     desc: 'Adjustable backrest examination couch with vinyl upholstery and under-table storage.',
     specs: 'Dimensions: 185×60 cm | Load: 200 kg | Height: 75–90 cm',
+    image: "/images/products/Hospital Examination Table.jpg",
     icon: '🛋️',
   },
   {
@@ -133,6 +150,7 @@ export const PRODUCTS = [
     name: 'IV Drip Stand (SS)',
     desc: 'Five-leg stainless steel IV pole with dual hook and easy-roll lockable casters.',
     specs: 'Height: 90–210 cm adjustable | Load: 5 kg per hook | 5 caster wheels',
+    image: "/images/products/IV Drip Stand (SS).jpg",
     icon: '🪝',
   },
   {
@@ -140,6 +158,7 @@ export const PRODUCTS = [
     name: 'Medical Crash Cart',
     desc: 'Aluminium alloy emergency crash cart with 5 colour-coded drawers and monitor shelf.',
     specs: 'Dimensions: 60×45×100 cm | 5 drawers | Central locking system',
+    image: "/images/products/Medical Crash Cart.jpg",
     icon: '🚑',
   },
   {
@@ -147,6 +166,7 @@ export const PRODUCTS = [
     name: 'Laboratory Centrifuge',
     desc: 'Bench-top 8-tube centrifuge with digital speed control, timer, and lid interlock.',
     specs: 'Speed: 1,000–4,000 RPM | Timer: 0–60 min | 8×15 mL tubes',
+    image: "/images/products/Laboratory Centrifuge.jpg",
     icon: '🔬',
   },
   {
@@ -154,6 +174,7 @@ export const PRODUCTS = [
     name: 'Microscope (Binocular)',
     desc: 'Achromatic binocular compound microscope with coaxial coarse/fine focussing.',
     specs: 'Magnification: 40×–1000× | LED: 1 W | WF 10× eyepieces',
+    image: "/images/products/Microscope (Binocular).jpg",
     icon: '🔭',
   },
   {
@@ -161,6 +182,7 @@ export const PRODUCTS = [
     name: 'Urine Analysis Reagent Strips',
     desc: '10-parameter dipstick test strips for routine urinalysis screening.',
     specs: 'Parameters: 10 | Bottle of 100 | CE marked | 24-month shelf life',
+    image: "/images/products/Urine Analysis Reagent Strips.jpg",
     icon: '🧪',
   },
   {
@@ -168,6 +190,7 @@ export const PRODUCTS = [
     name: 'First Aid Kit (50-piece)',
     desc: 'Fully stocked wall-mounted first aid cabinet for workplaces and clinics.',
     specs: '50 items | OSHA & ANSI compliant | Visual reorder indicator',
+    image: "/images/products/First Aid Kit (50-piece).jpg",
     icon: '🧰',
   },
   {
@@ -175,6 +198,7 @@ export const PRODUCTS = [
     name: 'Cervical Collar (Rigid)',
     desc: 'Adjustable rigid cervical collar for cervical spine immobilisation in trauma care.',
     specs: 'Sizes: S, M, L | Radiolucent | Washable foam liner',
+    image: "/images/products/Cervical Collar (Rigid).jpg",
     icon: '🦺',
   },
   {
@@ -182,6 +206,7 @@ export const PRODUCTS = [
     name: 'Automated Defibrillator (AED)',
     desc: 'Semi-automatic AED with voice guidance, CPR coaching, and paediatric capability.',
     specs: 'Energy: 150–360 J | IPX4 waterproof | 5-year electrode shelf life',
+    image: "/images/products/Automated Defibrillator (AED).jpg",
     icon: '⚡',
   },
 ]
