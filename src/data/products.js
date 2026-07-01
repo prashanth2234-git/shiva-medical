@@ -86,6 +86,14 @@ export const PRODUCTS = [
     specs: '10 Parameters | Bottle Pack | Laboratory Use',
     image: '/images/products/Urine Reagent Strips (H10).jpeg',
   },
+  {
+  id: 10,
+  category: 'rapid',
+  name: 'TB MPT64 Ag Test',
+  desc: 'Rapid immunochromatographic assay for the qualitative identification of Mycobacterium tuberculosis complex from positive culture isolates.',
+  specs: '25 Tests/Kit | SD Biosensor | Professional Laboratory Use',
+  image: '/images/products/TB MPT64 Ag Test.jpeg',
+  },
 ]
   
 

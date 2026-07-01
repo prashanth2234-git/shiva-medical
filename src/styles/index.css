@@ -538,3 +538,93 @@ img { max-width: 100%; display: block; }
 .cta-section__title { color: var(--white); font-size: clamp(22px, 4vw, 36px); font-weight: 800; margin-bottom: 16px; }
 .cta-section__sub { color: rgba(255,255,255,0.8); font-size: 17px; margin-bottom: 32px; }
 .cta-section__btns { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
+/* ==========================================
+   PRODUCT ENQUIRY SECTION
+========================================== */
+
+.enquiry-section {
+  margin-top: 80px;
+  background: #ffffff;
+  padding: 50px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.enquiry-section h2 {
+  text-align: center;
+  color: var(--navy);
+  margin-bottom: 15px;
+  font-size: 2rem;
+}
+
+.enquiry-subtitle {
+  text-align: center;
+  color: #555;
+  max-width: 800px;
+  margin: auto;
+  line-height: 1.7;
+}
+
+.enquiry-note {
+  text-align: center;
+  margin: 25px auto 40px;
+  max-width: 700px;
+  color: #666;
+  line-height: 1.8;
+}
+
+.enquiry-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  max-width: 700px;
+  margin: auto;
+}
+
+.enquiry-form input,
+.enquiry-form textarea {
+  width: 100%;
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  font-size: 15px;
+  transition: .3s;
+  font-family: inherit;
+}
+
+.enquiry-form input:focus,
+.enquiry-form textarea:focus {
+  outline: none;
+  border-color: var(--teal);
+  box-shadow: 0 0 0 4px rgba(0,170,160,.15);
+}
+
+.enquiry-form textarea {
+  resize: vertical;
+  min-height: 150px;
+}
+
+.enquiry-btn {
+  margin-top: 10px;
+  padding: 16px;
+  border-radius: 10px;
+  font-size: 17px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.enquiry-btn:hover {
+  transform: translateY(-2px);
+}
+
+@media (max-width:768px){
+
+.enquiry-section{
+padding:30px 20px;
+}
+
+.enquiry-section h2{
+font-size:1.6rem;
+}
+
+}
