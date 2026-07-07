@@ -150,7 +150,7 @@ export default function ContactPage() {
                 >
                   {[
                     { key: 'name',    label: 'Full Name',            type: 'text',  required: true,  ph: 'e.g. Dr. Ramesh Kumar' },
-                    { key: 'phone',   label: 'Phone Number',         type: 'tel',   required: true,  ph: '+91 98765 43210' },
+                    { key: 'phone',   label: 'Phone Number',         type: 'tel',   required: true,  ph: "+91 98487 69912", },
                     { key: 'email',   label: 'Email Address',        type: 'email', required: false, ph: 'you@hospital.com' },
                     { key: 'product', label: 'Product Requirement',  type: 'text',  required: true,  ph: 'e.g. IV sets, glucometers, exam table' },
                   ].map((f) => (

@@ -147,8 +147,8 @@ export const CERTIFICATES = [
 
 export const COMPANY = {
   name: 'Shiva Medical & Surgicals',
-  phone: '+91 9848769912',
-  waNumber: '91 9848769912',
+ phone: "+91 98487 69912",
+waNumber: "919848769912",
   email: 'info@shivamedical.in',
   address: 'Plot No. 45, Kukatpally Industrial Area, Hyderabad, Telangana – 500072',
   hours: 'Mon – Sat: 9:00 AM – 6:30 PM',
