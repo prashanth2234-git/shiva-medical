@@ -40,12 +40,7 @@ export default function Navbar() {
                 {l.label}
               </button>
             ))}
-            <button
-              className={`navbar__admin ${location.pathname.startsWith('/admin') ? 'active' : ''}`}
-              onClick={() => go('/admin')}
-            >
-              Admin
-            </button>
+            
           </div>
 
           {/* Hamburger */}
@@ -78,12 +73,7 @@ export default function Navbar() {
             {l.label}
           </button>
         ))}
-        <button
-          className={`navbar__admin ${location.pathname.startsWith('/admin') ? 'active' : ''}`}
-          onClick={() => go('/admin')}
-        >
-          Admin Panel
-        </button>
+        
       </div>
     </>
   )

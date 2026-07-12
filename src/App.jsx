@@ -8,7 +8,7 @@ import ProductsPage    from './pages/ProductsPage.jsx'
 import CertificatesPage from './pages/CertificatesPage.jsx'
 import AboutPage       from './pages/AboutPage.jsx'
 import ContactPage     from './pages/ContactPage.jsx'
-import AdminPage       from './pages/AdminPage.jsx'
+
 
 // Scroll to top on every route change
 function ScrollToTop() {
@@ -29,7 +29,7 @@ export default function App() {
           <Route path="/certificates" element={<CertificatesPage />} />
           <Route path="/about"        element={<AboutPage />} />
           <Route path="/contact"      element={<ContactPage />} />
-          <Route path="/admin"        element={<AdminPage />} />
+          
           {/* Catch-all → Home */}
           <Route path="*"             element={<HomePage />} />
         </Routes>
